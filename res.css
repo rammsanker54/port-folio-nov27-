@@ -1,0 +1,114 @@
+@media (max-width:576px){
+    .d-flex{
+        display: none;
+    }
+    .contenttp img{
+        display: none;
+    }
+    .banner:after{
+        display: none;
+    }
+    .footerico{
+        margin-top: 30px;
+    }
+    .mail , .phone{
+        display: flex;
+        
+    }
+    .chatbox{
+        display: inline;
+    }
+    .chatbox >form > input{
+        width: 100%;
+        height: auto;
+    }
+    .mgs >form > input{
+        width: 100%;
+        height: auto;
+    }
+    .mgs >form > textarea{
+        width: 100%;
+        height: auto;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .banner:after{
+        display: none;
+    }
+
+}
+@media (max-width:320px){
+    .banner-content h1{
+        font-size: 50px ;
+        color:  rgb(73, 99, 242);
+        font-weight: bold;
+}
+.banner:after{
+    display: none;
+}
+.banner:after{
+display: none;
+
+}
+.banner:after{
+    display: none;
+}
+
+}
+
+@media (max-width:1180px){
+    .project-1, .project-2,.project-3{
+    
+display: flex;
+align-items: center;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        margin: 0% auto;
+    }
+    .banner-content h1{
+        font-size: 100px ;
+        color:  rgb(73, 99, 242);
+        font-weight: bold;
+    }
+    .dsi img{
+   
+       width: 250px;
+       /* height:100px; */
+       margin: 0% auto;
+            }
+.contentp img{
+    display: none;
+}
+.rating{
+    margin: 0% auto;
+}
+.banner:after{
+    display: none;
+}
+}
+@media (max-width:1024px){
+    .dsi img{
+        width: 300px;
+      
+             }
+             
+#hire{
+    display:none
+
+}
+.container{
+    margin: 0% auto;
+}
+.banner-content h1{
+    font-size: 80px ;
+    color:  rgb(73, 99, 242);
+    font-weight: bold;
+}
+}
